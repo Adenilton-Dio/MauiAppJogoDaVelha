@@ -32,7 +32,7 @@ namespace MauiAppJogoDaVelha.Pages
             }
             else if (VerificarVitoria("O"))
             {
-                DisplayAlert("Parabéns!", "O O ganhou!", "OK");
+                DisplayAlert("Parabéns!", "O ganhou!", "OK");
                 Zerar();
                 return;
             }

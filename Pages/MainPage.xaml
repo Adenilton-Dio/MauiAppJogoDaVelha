@@ -5,8 +5,8 @@
 
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-            <GradientStop Color="Purple" Offset="0.3" />
-            <GradientStop Color="Red" Offset="1.0" />
+            <GradientStop Color="black" Offset="0.3" />
+            <GradientStop Color="DarkRed" Offset="1.0" />
            
         </LinearGradientBrush>
     </ContentPage.Background>
@@ -28,10 +28,10 @@
 
         <!-- Título -->
         <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" 
-               Text="Jogo da Velha"
+               Text="JOGO DA VELHA"
                HorizontalOptions="Center"
                VerticalOptions="Center"
-               FontSize="32"
+               FontSize="40"
                TextColor="White"
                FontAttributes="Bold" />
 
